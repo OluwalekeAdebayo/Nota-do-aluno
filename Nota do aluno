@@ -1,0 +1,23 @@
+
+nome = input('Ola qual seu nome?: ')
+
+print('Ola {}  por favor preeencha as informaçoes abaixo: '.format(nome))
+
+nota = int(input('Digite sua nota por favor: '))
+
+if nota >= 90:
+  print('-=-'*12)
+  print('Parabens você é um aluno nota A !')
+  print('-=-'*12)
+if nota>=80:
+  print('-'*12)
+  print('Incrivel voce tirou B mais pode melhorar!')
+  print('-'*12)
+if nota >= 60 and nota <= 80:
+  print('.'*12)
+  print('Hm você não foi muito bem ,tirou um C , mas ainda da pra recuperar!')
+  print('.'*12)
+if nota <60:
+  print('*'*12)
+  print(' Nota E! se esforce mais da proxima vez')
+  print('*'*12)
